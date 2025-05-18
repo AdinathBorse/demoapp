@@ -54,6 +54,7 @@ const Board = () => {
 
   return (
     <div style={style.container}>
+      <h1>Adinath</h1>
       <h2 style={style.status}>{status}</h2>
       <div style={style.board}>
         {squares.map((value, index) => (
